@@ -1,0 +1,165 @@
+ /*app.css*/
+ /* General Styling */
+ body {
+   font-family: 'Poppins', sans-serif;
+   background-color: #fdf4f5;
+   /* Soft pastel pink */
+   margin: 0;
+   padding: 0;
+   color: #4b4b4b;
+   /* Neutral dark gray for text */
+ }
+
+ h2 {
+   text-align: center;
+   color: #b56576;
+   /* A soft, pretty mauve */
+   margin-bottom: 20px;
+ }
+
+ .App {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #ffffff;
+   border-radius: 12px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ /* Form Styling */
+ form {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   max-width: 400px;
+   margin: 0 auto;
+ }
+
+ form input,
+ form select,
+ form textarea {
+   padding: 12px;
+   font-size: 16px;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   background-color: #fefefe;
+ }
+
+ form input:focus,
+ form select:focus,
+ form textarea:focus {
+   outline: none;
+   border-color: #b56576;
+   /* Mauve border on focus */
+ }
+
+ form button {
+   padding: 12px;
+   background-color: #e38191;
+   /* Soft rose pink */
+   color: white;
+   font-size: 16px;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+
+ form button:hover {
+   background-color: #d67182;
+   /* Slightly darker rose pink */
+ }
+
+ /* Table Styling */
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+ }
+
+ th,
+ td {
+   padding: 12px;
+   text-align: left;
+   border: 1px solid #ddd;
+ }
+
+ th {
+   background-color: #f4d3d7;
+   /* Soft pastel pink */
+   color: #4b4b4b;
+   /* Neutral text color */
+ }
+
+ tr:nth-child(even) {
+   background-color: #f9e8eb;
+   /* Alternating row color */
+ }
+
+ tr:hover {
+   background-color: #fceff1;
+   /* Subtle hover effect */
+ }
+
+ /* List Styling */
+ .student-course-list,
+ .add-student-course-form {
+   margin: 20px 0;
+   padding: 20px;
+   background-color: #fff5f7;
+   /* Light pink background */
+   border-radius: 12px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ .student-course-list h2,
+ .add-student-course-form h2 {
+   color: #b56576;
+ }
+
+ .student-course-list p,
+ .add-student-course-form p {
+   color: #6b6b6b;
+   /* Soft gray text */
+ }
+
+ /* Button Styling */
+ button {
+   padding: 10px 15px;
+   border: none;
+   border-radius: 8px;
+   background-color: #e38191;
+   color: white;
+   cursor: pointer;
+   font-size: 16px;
+   transition: all 0.3s ease;
+ }
+
+ button:hover {
+   background-color: #d67182;
+ }
+
+ button:disabled {
+   background-color: #ccc;
+   cursor: not-allowed;
+ }
+
+
+
+ .complete-button {
+   margin-left: 10px;
+   padding: 5px 10px;
+   background-color: #b56576;
+   /* Mauve */
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 12px;
+   transition: background-color 0.3s ease;
+ }
+
+ .complete-button:hover {
+   background-color: #a25368;
+   /* Darker mauve */
+ }
